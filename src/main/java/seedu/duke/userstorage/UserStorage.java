@@ -26,7 +26,7 @@ public class UserStorage {
         logger.log(Level.INFO, "Going to add text into file");
         fw.write(textToAdd);
         fw.close();
-        logger.log(Level.INFO, "End of file saving");
+        logger.log(Level.INFO, "End of saving file");
     }
 
     /**.
